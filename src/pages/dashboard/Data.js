@@ -1,19 +1,46 @@
-import { BsGraphUp } from "react-icons/bs";
-import { HiUserGroup } from "react-icons/hi";
 
-const cards = [
+
+//table data
+
+export const tableData = [
   {
     id: 1,
-    title: "Visitors Today",
-    value: 5600,
-    // icon: <BsGraphUp className="text-xl" />,
+    name: "Jane Cooper",
+    package: "Regular",
+    enrolled: "Jan 28,2023",
+    progress: "80%",
+    rating: "5 stars",
   },
   {
     id: 2,
-    title: "New Users",
-    value: 230,
-    // icon: <HiUserGroup className="text-xl" />,
+    name: "Jane Cooper",
+    package: "Regular",
+    enrolled: "Jan 28,2023",
+    progress: "80%",
+    rating: "5 stars",
+  },
+  {
+    id: 3,
+    name: "Jane Cooper",
+    package: "Regular",
+    enrolled: "Jan 28,2023",
+    progress: "80%",
+    rating: "5 stars",
+  },
+  {
+    id: 4,
+    name: "Jane Cooper",
+    package: "Regular",
+    enrolled: "Jan 28,2023",
+    progress: "80%",
+    rating: "5 stars",
+  },
+  {
+    id: 5,
+    name: "Jane Cooper",
+    package: "Regular",
+    enrolled: "Jan 28,2023",
+    progress: "80%",
+    rating: "5 stars",
   },
 ];
-
-export default cards;
