@@ -2,7 +2,7 @@ import React from "react";
 import MainLayout from "../../layout/MainLayout";
 import { MdEdit } from "react-icons/md";
 
-function Subscribers() {
+function Payment() {
   return (
     <div>
       <div className="flex flex-row gap-10 bg-slate-100 justify-start items-center p-4 rounded-lg shadow-lg w-60">
@@ -21,4 +21,4 @@ function Subscribers() {
   );
 }
 
-export default MainLayout(Subscribers);
+export default MainLayout(Payment);

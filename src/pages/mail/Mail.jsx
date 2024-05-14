@@ -1,10 +1,11 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 
-function Users() {
+
+function Mail() {
   return (
-    <div>Users</div>
+    <div>Mail</div>
   )
 }
 
-export default MainLayout(Users)
+export default MainLayout(Mail)

@@ -1,12 +1,12 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 
-function Blog() {
+function Complain() {
   return (
     <div>
-      Blog
+      Complain
     </div>
   )
 }
 
-export default MainLayout(Blog)
+export default MainLayout(Complain)

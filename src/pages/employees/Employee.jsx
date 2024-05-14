@@ -1,12 +1,10 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 
-function Invoices() {
+function Employee() {
   return (
-    <div>
-      Invoices
-    </div>
+    <div>Employee</div>
   )
 }
 
-export default MainLayout(Invoices)
+export default MainLayout(Employee)

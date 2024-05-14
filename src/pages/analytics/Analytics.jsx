@@ -1,12 +1,12 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 
-function Comments() {
+function Analytics() {
   return (
     <div>
-      Comments
+      Analytics
     </div>
   )
 }
 
-export default MainLayout(Comments)
+export default MainLayout(Analytics)

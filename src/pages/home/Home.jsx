@@ -84,7 +84,7 @@ function Dashboard() {
               key={item.id}
                 
               // even:bg-gray-100 odd:bg-gray-200
-              className={`bg-gray-100 ${item.id % 2 === 0 ? 'bg-gray-100' : 'bg-gray-200'}`}
+              className={`bg-gray-100 $ {item.id % 2 === 0 ? 'bg-gray-100' : 'bg-gray-200'}`}
               >
                 <td className="items-center justify-start gap-2 flex ">
                   <input
