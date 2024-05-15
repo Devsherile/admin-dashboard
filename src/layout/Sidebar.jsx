@@ -14,7 +14,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="text-gray-800 bg-white h-screen w-60 border-r border-r-slate-400">
+    <div className="text-gray-800 bg-white h-auto w-60 border-r border-r-slate-400 mx-10 rounded-lg">
       <div className="p-4 flex flex-row items-center justify-center gap-2">
       <img src={logo} alt="logo" className="w-16 h-16 rounded-full object-cover "
     />
